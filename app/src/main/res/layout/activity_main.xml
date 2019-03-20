@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.quizmatematika.MainActivity">
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabMenu"
+        app:fabSize="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_black"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabStart"
+        app:fabSize="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fabMenu"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_create_black"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fabScore"
+        app:fabSize="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/fabStart"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_format_list_numbered_black"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>

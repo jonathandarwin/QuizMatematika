@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.quizmatematika.QuizActivity">
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score : 0"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorBlack"
+        android:text="21 + 21 = "
+        android:textSize="30sp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="80dp"
+        />
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/colorBlack"
+        android:layout_toRightOf="@+id/tvQuestion"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvQuestion"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvQuestion"
+        android:layout_toLeftOf="@+id/btn2"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tvQuestion"
+        android:layout_toRightOf="@+id/btn2"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn2"
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn1"
+        android:layout_toLeftOf="@+id/btn5"
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn3"
+        android:layout_toRightOf="@+id/btn5"
+        />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn5"
+        />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn6"
+        android:layout_toLeftOf="@+id/btn8"
+        />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn6"
+        android:layout_toRightOf="@+id/btn8"
+        />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn8"
+        />
+
+    <Button
+        android:id="@+id/btnErase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Erase"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn9"
+        android:layout_toRightOf="@+id/btn0"
+        />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/btn0"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
